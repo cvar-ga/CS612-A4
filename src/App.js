@@ -2,9 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 
-//bootstrap
-//import 'bootstrap/dist/css/bootstrap.min.css';
-//axios for xml request
+
 import axios from 'axios';
 
 //xml file reader
