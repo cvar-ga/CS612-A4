@@ -23,10 +23,17 @@ From there, you can visit [http://localhost:3000](http://localhost:3000) to view
 I could not have completed this assignment without the help of some online tutorials which I read up on to overcome some coding blocks. Here are the posts that I consulted for this assignment:
 
 [REACTJS READ XML FILE DATA WORKING DEMO](https://therichpost.com/reactjs-read-xml-file-data-working-demo/)
+
 [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
+
 [Update React component every second](https://www.querythreads.com/update-react-component-every-second/)
+
 [How to Make AJAX API Calls in React](https://itnext.io/how-to-make-ajax-api-calls-in-react-8ee7b8ee539d)
+
 [Simplest way to use axios to fetch data from an api in ReactJS](https://medium.com/how-to-react/simplest-way-to-use-axios-to-fetch-data-from-an-api-in-reactjs-cd9af9d7230)
+
 [this.state - How to Use State in React js](https://www.iamtimsmith.com/blog/this-state-how-to-use-state-in-react)
+
 [How to access JSON object in JavaScript](https://mkyong.com/javascript/how-to-access-json-object-in-javascript/)
+
 [How to Display XML Data In React](https://www.pluralsight.com/guides/how-to-display-xml-data-using-reactjs)
