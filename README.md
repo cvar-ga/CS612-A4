@@ -1,71 +1,32 @@
-# Getting Started with Create React App
+# CS612 Assignment 4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was written with the intent to fulfill the requirements for Pace University's CS612 Assignment 4 submission: design a blog site with ReactJS.
 
-## Available Scripts
+This is a single-page site with links to the three blog posts in the header, along with the top stories in the New York Times in the navigation column. The page will not render until you replace ```KEY_HERE``` in lines 52 and 72 of [App.js](src/App.js) with a NYT API key for top stories. The first blog post introduces me, the author of the site. The second blog post takls about the current trends in remote work and study. The third blog post is a brief high-level tutorial on how to create a blog site similar to this one.
 
-In the project directory, you can run:
+This directory was created with the Create-React-App tool by Facebook, which can be found [here](https://github.com/facebook/create-react-app). I have included this link here in case you want to get started working with ReactJS to build a site yourself. You do not need to download this for the purpose of getting this site to work.
+
+This site requires downloading [NodeJS](https://nodejs.org/en/download/), then also making sure that you have [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [npx](https://www.npmjs.com/package/npx).
+
+## Deploying the web server
+
+To get the web server to run, you need to run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+...from inside the project directory.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+From there, you can visit [http://localhost:3000](http://localhost:3000) to view the app from your web browser.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Special Thanks
+I could not have completed this assignment without the help of some online tutorials which I read up on to overcome some coding blocks. Here are the posts that I consulted for this assignment:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# CS612-A4
+[REACTJS READ XML FILE DATA WORKING DEMO](https://therichpost.com/reactjs-read-xml-file-data-working-demo/)
+[Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
+[Update React component every second](https://www.querythreads.com/update-react-component-every-second/)
+[How to Make AJAX API Calls in React](https://itnext.io/how-to-make-ajax-api-calls-in-react-8ee7b8ee539d)
+[Simplest way to use axios to fetch data from an api in ReactJS](https://medium.com/how-to-react/simplest-way-to-use-axios-to-fetch-data-from-an-api-in-reactjs-cd9af9d7230)
+[this.state - How to Use State in React js](https://www.iamtimsmith.com/blog/this-state-how-to-use-state-in-react)
+[How to access JSON object in JavaScript](https://mkyong.com/javascript/how-to-access-json-object-in-javascript/)
+[How to Display XML Data In React](https://www.pluralsight.com/guides/how-to-display-xml-data-using-reactjs)
